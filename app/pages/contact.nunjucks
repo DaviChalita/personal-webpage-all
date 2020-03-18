@@ -1,0 +1,25 @@
+{% extends "header.nunjucks" %}
+
+{%block content%}
+<div class="contact-box">
+    <div class="contact-info">
+        <div class="cardcontact">
+            <i class="card-icon far fa-envelope"></i>
+            <p>chalitameneguelli14@gmail.com</p>
+            
+        </div>
+    </div>
+    <div class="contact-info">
+        <div class="cardcontact">
+            <i class="card-icon fas fa-phone"></i>
+            <p>+55 21 97147 2763</p>
+        </div>
+    </div>
+    <div class="contact-info">
+        <div class="cardcontact">
+            <i class="card-icon fas fa-map-marker-alt"></i>
+            <p>Sao Goncalo, Rio de Janeiro</p>
+        </div>
+    </div>
+</div>
+{%endblock%}

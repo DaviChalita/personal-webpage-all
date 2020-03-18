@@ -1,0 +1,30 @@
+{%extends "header.nunjucks" %}
+
+{%block content %}
+   <div class="boxworks">
+        <h2>Currículo</h2>
+        <b><p>FORMAÇÃO ACADÊMICA</p></b>
+        <p>Ensino médio: Instituto Superior de Educação do Rio de Janeiro – Técnico em Informática (2015)</p>
+        <p>Ensino superior: Universidade Federal Fluminense – Curso de Sistemas de Informação (2021)</p>
+        <p>Coeficiente de Rendimento – 7.7</p>
+        <p> Intercâmbio de 1 semestre no curso Mobile Systems Engineering em Dankook University (Coreia do Sul, 2019)</p>
+        <br>
+        <b><p>HABILIDADES</p></b>
+        <p>•	Conhecimento em Java, Python e C;</p>
+        <p>•	Experiência com HTML, CSS, SQL e Firebase;</p>
+        <p>•	Familiaridade com Git/Github;</p>
+        <p>•	Prática com sistema Linux;</p>
+        <p>•	Inglês: Avançado – Desempenho excelente em leitura e audição, comunicação oral e escrita avançadas.</p>
+        <br>
+        <b><p>EXPERIÊNCIA PROFISSIONAL</p></b>
+        <p>Estagiário na área de TI - Correios (2015)</p>
+        <p>Projeto de Pesquisa – Desenvolvimento de prontuário médico eletrônico em Java Android com acompanhamento de professor da UFF (2018 – 2019)</p>
+        <p>Professor de conversação em Inglês no Programa de Linguagens de Inverno - Dankook University (2019 - 2020)</p>
+        <br>
+        <b><p>CURSOS COMPLEMENTARES</p></b>
+        <p>Curso de Informática em CIUG (2012)</p>
+        <p>Curso de Inglês em Yázigi (2014)</p>
+        <p>Curso online na empresa Alura – Carreira de desenvovimento Android (2019)</p>
+     </div>
+
+{% endblock %}
